@@ -7,13 +7,34 @@ body {
 
 :root {
   --text-color: #fafafa;
+  --text-color-description: #929292;
 }
 // header
+.scroll {
+  background-color: rgba(0, 0, 0, 0.688) !important;
+  padding: 10px 0px;
+}
+
 .header {
+  width: 100%;
+
   .navbar {
+    .navbar-start {
+      .title {
+        color: var(--text-color);
+        font-weight: 300;
+        font-size: 16px;
+      }
+    }
+    .navbar-end {
+      .navbar-item:hover {
+        background-color: rgba(0, 0, 0, 0.5) !important;
+      }
+    }
     background: none;
     .navbar-item {
       color: var(--text-color);
+
       .title {
         color: var(--text-color);
       }
@@ -31,21 +52,74 @@ body {
   .title {
     color: var(--text-color);
     text-align: right;
+    position: absolute;
+    bottom: 20%;
+    right: 30%;
   }
   .text {
     font-weight: 100;
     font-size: 28px;
     color: var(--text-color);
-    text-align: right;
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
   }
 
   .dud {
     color: #787272;
   }
 }
-
+// about
 .about {
   margin-top: 10px;
-  .left-side {
+}
+// skill
+.skill {
+  .title {
+    text-align: center;
+  }
+
+  .list-skill {
+    column-gap: 10px !important;
+  }
+
+  .box-skill-main {
+    cursor: pointer;
+    text-align: left;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    .box-skill-title {
+      font-weight: bold;
+    }
+
+    .description {
+      color: var(--text-color-description);
+      font-size: 14px;
+    }
+  }
+}
+// experience
+.experience {
+  .title {
+    text-align: center;
+  }
+  .gap {
+    column-gap: 10px;
+  }
+  .box {
+    margin-bottom: 50px !important;
+    .box-content {
+      .box-time {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .project-name {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .technology {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+    }
   }
 }

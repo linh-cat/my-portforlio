@@ -83,8 +83,7 @@ const SectionIntroduce = () => {
   }, []);
 
   return (
-    <section className="section introduce">
-      <h3 className="title is-3"> I'm Senior Frontend Developer</h3>
+    <section className="section introduce" id="home">
       <div className="text"></div>
     </section>
   );

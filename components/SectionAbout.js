@@ -33,7 +33,7 @@ const SectionAbout = () => {
             love. When I am not listening to the songs, I turn on my computer
             and watch some of the latest movies on the websites. Since most of
             the best films are from Europe and America, this is also a way for
-            me to improve my English skills. \
+            me to improve my English skills.
           </p>
         </div>
       </div>
