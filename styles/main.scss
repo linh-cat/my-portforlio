@@ -1,0 +1,51 @@
+@import "./shared/fonts";
+
+html,
+body {
+  font-family: "Lato", "Helvetica";
+}
+
+:root {
+  --text-color: #fafafa;
+}
+// header
+.header {
+  .navbar {
+    background: none;
+    .navbar-item {
+      color: var(--text-color);
+      .title {
+        color: var(--text-color);
+      }
+    }
+  }
+}
+// introduce
+.introduce {
+  background-image: url("../styles/images/bg-introduce.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 750px;
+
+  .title {
+    color: var(--text-color);
+    text-align: right;
+  }
+  .text {
+    font-weight: 100;
+    font-size: 28px;
+    color: var(--text-color);
+    text-align: right;
+  }
+
+  .dud {
+    color: #787272;
+  }
+}
+
+.about {
+  margin-top: 10px;
+  .left-side {
+  }
+}
