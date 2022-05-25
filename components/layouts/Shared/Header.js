@@ -30,11 +30,14 @@ const Header = ({ isFixed }) => {
               Greeting, I'm Linh
             </a>
           </div>
+          <div className="navbar-item">
+            <h5 className="title is-5">Senior Frontend Developer</h5>
+          </div>
         </div>
 
         <div id="navbarBasicExample" className="navbar-menu">
           <div className="navbar-start">
-            <h5 className="title is-5">Senior Frontend Developer</h5>
+            <button className="button is-primary is-small">Login</button>
           </div>
           <div className="navbar-end">
             <a className="navbar-item" href="#home">

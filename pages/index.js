@@ -3,6 +3,7 @@ import BaseLayout from "../components/layouts/BaseLayout";
 import SectionAbout from "../components/SectionAbout";
 import SectionExperience from "../components/SectionExperience";
 import SectionIntroduce from "../components/SectionIntroduce";
+import SectionPortforlio from "../components/SectionPortforlio";
 import SectionSkill from "../components/SectionSkill";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <SectionAbout />
       <SectionSkill />
       <SectionExperience />
+      <SectionPortforlio />
     </BaseLayout>
   );
 }

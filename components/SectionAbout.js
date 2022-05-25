@@ -9,12 +9,14 @@ const SectionAbout = () => {
     <Basepage>
       <div className="section is-small about columns is-gapless">
         <div className="left-side column">
-          <Image
-            src={BgSectionAbout}
-            alt="images about section"
-            width={600}
-            height={450}
-          />
+          <figure className="box">
+            <Image
+              src={BgSectionAbout}
+              alt="images about section"
+              width={600}
+              height={450}
+            />
+          </figure>
         </div>
         <div className="right-side column">
           <h5 className="title is-5">My Story</h5>
