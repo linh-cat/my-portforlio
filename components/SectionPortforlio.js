@@ -5,6 +5,7 @@ import netflix from "../styles/images/netflix.png";
 import fashe from "../styles/images/fashe.png";
 import hal from "../styles/images/hal.png";
 import nft from "../styles/images/nft.png";
+import Basepage from "./layouts/Basepage";
 const SectionPortforlio = () => {
   return (
     <div className="section portforlio">

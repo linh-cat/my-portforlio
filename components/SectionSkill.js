@@ -10,6 +10,7 @@ import PostgreSQLImage from "../styles/images/postgreSQL-image.png";
 import MongoImage from "../styles/images/MongoDB_image.svg";
 import NodeJSImage from "../styles/images/nodejs-image.svg";
 import GitImage from "../styles/images/git-image.png";
+import Basepage from "./layouts/Basepage";
 
 const SectionSkill = () => {
   return (

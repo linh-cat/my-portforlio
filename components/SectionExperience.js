@@ -1,6 +1,7 @@
 import React from "react";
 import BoxExperience from "./BoxExperience";
 import FptImage from "../styles/images/fptsoftware.jpg";
+import Basepage from "./layouts/Basepage";
 
 const SectionExperience = () => {
   return (
